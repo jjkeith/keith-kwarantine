@@ -8,48 +8,68 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/styles.css">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fanwood+Text:400,400i|Shrikhand&display=swap" rel="stylesheet">'
 
-  <link href="https://fonts.googleapis.com/css?family=Fanwood+Text:400,400i|Shrikhand&display=swap" rel="stylesheet">
+  <!-- Bootstrap -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">'
 
-  <meta name="theme-color" content="#fafafa">
+  <!-- Font Awesome -->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <style type="text/css">
+    body {
+      background-color: #fafafa;
+      color: darkslategray;
+      font-family: 'Fanwood Text', serif;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: darkgreen;
+      font-family: 'Shrikhand', cursive;
+    }
+
+    .content-box {
+      border: 1px solid darkgreen;
+      padding: 1rem;
+    }
+  </style>
+
 </head>
 
 <body>
-  <!--[if IE]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/vendor/modernizr-3.8.0.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <div class="row">
+    <div class="col-12">
+      <h1>Keith Kwarantine</h1>
+    </div>
+    <div class="col-3 content-box">
+      <p>The correct order to watch <em>Lord of the Rings</em> films:
+        <ul>
+          <li>Helm's Deep</li>
+          <li><em>The Fellowship of the Ring</em></li>
+          <li>Helm's Deep</li>
+          <li><em>The Two Towers</em></li>
+          <li>Helm's Deep (optional)</li>
+          <li><em>The Return of the King</em></li>
+          <li>Helm's Deep</li>
+        </ul>
+    </div>
+    <div class="col-6"></div>
+    <div class="col-3"></div>
+  </div>
+
+
   <script>
-    window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')
 
   </script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () {
-      ga.q.push(arguments)
-    };
-    ga.q = [];
-    ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto');
-    ga('set', 'transport', 'beacon');
-    ga('send', 'pageview')
-
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 
 </html>
